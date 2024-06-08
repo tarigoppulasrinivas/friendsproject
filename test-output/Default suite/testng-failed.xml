@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="friendsproject.Fbrun">
+      <class name="friendsproject.Gurutest">
         <methods>
-          <include name="fbsetup"/>
-          <include name="closefb"/>
-          <include name="fblogindetails"/>
+          <include name="closeapp"/>
+          <include name="login"/>
+          <include name="setup"/>
+          <include name="newcustomerlogin"/>
         </methods>
-      </class> <!-- friendsproject.Fbrun -->
+      </class> <!-- friendsproject.Gurutest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

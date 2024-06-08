@@ -34,12 +34,10 @@ public class Basetest {
 	prop = new Properties();
 	FileInputStream file = new FileInputStream("C:\\Users\\pc\\eclipse-workspace\\friendsproject\\src\\test\\resources\\config.properties");
 	prop.load(file);
+
 }
-	
-	
 	@AfterTest
 	void closeapp() {
-		driver.close();
-		
+		driver.quit();
 	}
-}
+	}
